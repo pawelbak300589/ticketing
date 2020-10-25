@@ -1,5 +1,4 @@
 import express, { Request, Response } from 'express';
-// import { body } from 'express-validator';
 import { NotFoundError } from '@pb89tickets/common';
 import { Ticket } from '../models/ticket';
 
